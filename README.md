@@ -18,3 +18,7 @@ Get-Service *docker*
 
 # contenedores, tanto en ejecución como detenidos
 docker ps -a
+
+# comandos para levantar Ubuntu container
+docker build -t mi-imagen-linux .
+docker run --rm -it mi-imagen-linux
